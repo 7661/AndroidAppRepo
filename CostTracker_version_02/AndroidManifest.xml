@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.costtracker_version_02"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.costtracker_version_02.WelcomeScreenActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.costtracker_version_02.UserScreenActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.costtracker_version_02.UserScreenActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.costtracker_version_02.UserCostActivityScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.costtracker_version_02.UserCostActivityScreen" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.costtracker_version_02.UserInsertCostActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.costtracker_version_02.UserInsertCostActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.costtracker_version_02.UserViewCostActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.costtracker_version_02.UserViewCostActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.costtracker_version_02.UserListViewCostActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.costtracker_version_02.UserListViewCostActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+               <activity
+            android:name="com.example.costtracker_version_02.UserTableViewCostActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.costtracker_version_02.UserTableViewCostActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+    </application>
+
+</manifest>

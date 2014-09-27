@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cost Tracker</string>
+    <string name="test_main_activity">This is main activity text!</string>
+    <string name="action_settings">Settings</string>
+    <string name="editText1">Log In</string>
+    <string name="editText2">Password</string>
+    <string name="Submit">Submit</string>
+    <string name="New_Log_In">Create LogIn</string>
+    <string name="test_second_activity">This is second activity text!</string>
+    <string name="button_cost">Cost</string>
+    <string name="button_income">Income</string>
+    <string name="button_debt">Debt</string>
+    <string name="button_loan">Loan</string>
+    <string name="test_cost_activity">This is cost activity text!</string>
+    <string name="insert_cost">Insert Cost</string>
+    <string name="view_cost">View Cost</string>
+    <string name="test_insert_cost">This is insert cost fragment text!</string>
+    <string name="user_insert_cost_grid">Insert Cost Data</string>
+    <string name="user_insert_cost_date">Insert Date</string>
+    <string name="user_insert_cost_item">Insert Item</string>
+    <string name="user_insert_cost_amount">Insert Amount</string>
+    <string name="insert_cost_info_button">Insert Cost Info</string>
+    <string name="mainTable">mainTable</string>
+    
+
+</resources>
