@@ -1,0 +1,31 @@
+
+https://www.digitalocean.com/community/tutorials/how-to-use-git-effectively
+
+Step:1:
+Go  to the directory to upload code
+
+After copying everything in the folder
+Type in "git init"
+
+Then "git add ."
+
+To commit the changes 
+
+"git commit -m "Initial Commit" -a"
+
+After commit create locally the URL to point to
+git remote add origin git@git.domain.tld/repository.git 
+
+origin is the name of the repository
+
+and git@git.domain.tld/repository.git is URL of an already created repo in github
+
+
+Then pull the codes from github-- Make sure you don't have the changes yet otherwise github asks to merge
+git pull git@github.com:githubport/DemoApp.git
+
+Then push
+git push git@github.com:githubport/DemoApp.git 
+
+
+
